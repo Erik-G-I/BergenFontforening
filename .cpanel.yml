@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/bergejkg/public_html/
-    - /bin/cp -R Fonts $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
