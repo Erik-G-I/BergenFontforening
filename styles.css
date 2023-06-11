@@ -1,0 +1,129 @@
+/* Excalibur Nouveau */
+@font-face {
+    font-family: "Excalibur Nouveau";
+    src: url(fonts/Excalibur-Nouveau.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Retro Boldy */
+@font-face {
+    font-family: "Retro Boldy";
+    src: url(fonts/RetroBoldy-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Speedway */
+@font-face {
+    font-family: "Speedway";
+    src: url(fonts/Speedway.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Verve */
+@font-face {
+    font-family: "Verve";
+    src: url(fonts/Verve.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Vintage */
+@font-face {
+    font-family: "Vintage";
+    src: url(fonts/Vintage.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Barcode */
+@font-face {
+    font-family: "Barcode";
+    src: url(fonts/Another-barcode-font.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Franchise";
+    src: url(fonts/Franchise.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Planet Kosmos";
+    src: url(fonts/PlanetKosmos.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Space Time";
+    src: url(fonts/spacetime-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mentra";
+    src: url(fonts/MENTRA.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stretch Pro";
+    src: url(fonts/StretchPro.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Saddlebag";
+    src: url(fonts/Saddlebag.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(fonts/coolvetica-rg.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Barcode';
+    text-align: center;
+    font-size: 100px;
+}
+
+.topptekst {
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 30px;
+}
+
+.MaanedensFunn {
+    text-align: center;
+    font-size: 100px;
+}
+
+.bannertop {
+    font-family: 'Helvetica';
+    text-align: right;
+    font-size: 20px;
+}
+
+.bannerbottom {
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 20px;
+}
+
+html {
+    background-color: #FFE9C7;
+}
