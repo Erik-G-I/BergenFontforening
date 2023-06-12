@@ -46,6 +46,7 @@
     font-style: normal;
 }
 
+/* Franchise */
 @font-face {
     font-family: "Franchise";
     src: url(../fonts/Franchise.ttf);
@@ -53,6 +54,7 @@
     font-style: normal;
 }
 
+/* Planet Kosmos */
 @font-face {
     font-family: "Planet Kosmos";
     src: url(../fonts/PlanetKosmos.ttf);
@@ -60,6 +62,7 @@
     font-style: normal;
 }
 
+/* Space Time */
 @font-face {
     font-family: "Space Time";
     src: url(../fonts/spacetime-regular.ttf);
@@ -67,6 +70,7 @@
     font-style: normal;
 }
 
+/* Mentra */
 @font-face {
     font-family: "Mentra";
     src: url(../fonts/MENTRA.otf);
@@ -74,6 +78,7 @@
     font-style: normal;
 }
 
+/* Stretch Pro */
 @font-face {
     font-family: "Stretch Pro";
     src: url(../fonts/StretchPro.otf);
@@ -81,6 +86,7 @@
     font-style: normal;
 }
 
+/* Saddlebag */
 @font-face {
     font-family: "Saddlebag";
     src: url(../fonts/Saddlebag.ttf);
@@ -88,6 +94,7 @@
     font-style: normal;
 }
 
+/* Coolvetica */
 @font-face {
     font-family: "Coolvetica";
     src: url(../fonts/coolvetica-rg.otf);
@@ -95,6 +102,7 @@
     font-style: normal;
 }
 
+/* Computer Modern */
 @font-face {
     font-family: "Computer Modern";
     src: url(../fonts/cmunrm.ttf);
@@ -117,8 +125,6 @@ h3 {
 .topptekst {
     font-family: 'Helvetica';
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
     font-size: 30px;
 }
 
@@ -147,6 +153,9 @@ h3 {
 
 html {
     background-color: #FFE9C7;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 a {
