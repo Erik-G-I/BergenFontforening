@@ -108,6 +108,12 @@ h1 {
     font-size: 100px;
 }
 
+h3 {
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 100px;
+}
+
 .topptekst {
     font-family: 'Helvetica';
     text-align: center;
@@ -133,12 +139,19 @@ h1 {
     font-size: 20px;
 }
 
+.menylinje {
+    font-family: 'Helvetica';
+    text-align: center;
+    font-size: 30px;
+}
+
 html {
     background-color: #FFE9C7;
 }
 
 a {
-    color: black;
+    color: rgb(55, 128, 56);
     text-decoration: none;
     cursor: pointer;
 }
+
