@@ -136,3 +136,9 @@ h1 {
 html {
     background-color: #FFE9C7;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
