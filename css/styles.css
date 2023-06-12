@@ -1,7 +1,7 @@
 /* Excalibur Nouveau */
 @font-face {
     font-family: "Excalibur Nouveau";
-    src: url(fonts/Excalibur-Nouveau.ttf);
+    src: url(../fonts/Excalibur-Nouveau.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Retro Boldy */
 @font-face {
     font-family: "Retro Boldy";
-    src: url(fonts/RetroBoldy-Regular.ttf);
+    src: url(../fonts/RetroBoldy-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 /* Speedway */
 @font-face {
     font-family: "Speedway";
-    src: url(fonts/Speedway.ttf);
+    src: url(../fonts/Speedway.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +25,7 @@
 /* Verve */
 @font-face {
     font-family: "Verve";
-    src: url(fonts/Verve.ttf);
+    src: url(../fonts/Verve.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +33,7 @@
 /* Vintage */
 @font-face {
     font-family: "Vintage";
-    src: url(fonts/Vintage.ttf);
+    src: url(../fonts/Vintage.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -41,56 +41,63 @@
 /* Barcode */
 @font-face {
     font-family: "Barcode";
-    src: url(fonts/Another-barcode-font.ttf);
+    src: url(../fonts/Another-barcode-font.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Franchise";
-    src: url(fonts/Franchise.ttf);
+    src: url(../fonts/Franchise.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Planet Kosmos";
-    src: url(fonts/PlanetKosmos.ttf);
+    src: url(../fonts/PlanetKosmos.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Space Time";
-    src: url(fonts/spacetime-regular.ttf);
+    src: url(../fonts/spacetime-regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Mentra";
-    src: url(fonts/MENTRA.otf);
+    src: url(../fonts/MENTRA.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Stretch Pro";
-    src: url(fonts/StretchPro.otf);
+    src: url(../fonts/StretchPro.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Saddlebag";
-    src: url(fonts/Saddlebag.ttf);
+    src: url(../fonts/Saddlebag.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Coolvetica";
-    src: url(fonts/coolvetica-rg.otf);
+    src: url(../fonts/coolvetica-rg.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url(../fonts/cmunrm.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -104,6 +111,8 @@ h1 {
 .topptekst {
     font-family: 'Helvetica';
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 30px;
 }
 
