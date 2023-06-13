@@ -151,10 +151,14 @@ h3 {
     font-size: 30px;
 }
 
+.arkivlisten {
+    font-size: 40px;
+}
+
 html {
     background-color: #FFE9C7;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 5%;
 }
 
