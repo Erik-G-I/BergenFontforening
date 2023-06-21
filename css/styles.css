@@ -111,9 +111,19 @@
 }
 
 h1 {
-    font-family: 'Barcode';
+    height: 150px;
     text-align: center;
+    font-family: 'campaign-serif'; font-style: normal;
     font-size: 100px;
+    animation: header 5s;
+}
+
+@keyframes header {
+    0%   {font-family: 'Barcode';}
+    25%  {font-family: 'Mentra';}
+    50%  {font-family: 'Speedway'; text-transform: uppercase;}
+    75%  {font-family: 'Computer Modern'; text-transform: none;}
+    100% {font-family: 'Coolvetica';}
 }
 
 h3 {
@@ -163,7 +173,7 @@ html {
 }
 
 a {
-    color: rgb(55, 128, 56);
+    color: #921131;
     text-decoration: none;
     cursor: pointer;
 }
