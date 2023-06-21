@@ -114,15 +114,15 @@ h1 {
     height: 150px;
     text-align: center;
     font-family: 'campaign-serif'; font-style: normal;
-    font-size: 100px;
+    font-size: 90px;
     animation: header 5s;
 }
 
 @keyframes header {
     0%   {font-family: 'Barcode';}
-    25%  {font-family: 'Mentra';}
-    50%  {font-family: 'Speedway'; text-transform: uppercase;}
-    75%  {font-family: 'Computer Modern'; text-transform: none;}
+    25%  {font-family: 'Mentra'; }
+    50%  {font-family: 'Speedway'; text-transform: uppercase; }
+    75%  {font-family: 'Computer Modern'; text-transform: none; }
     100% {font-family: 'Coolvetica';}
 }
 
@@ -170,6 +170,7 @@ html {
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 5%;
+    
 }
 
 a {
