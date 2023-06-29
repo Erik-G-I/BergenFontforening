@@ -1,17 +1,17 @@
 h1 {
     height: 150px;
     text-align: center;
-    font-family: 'campaign-serif'; font-style: normal;
+    font-family: 'Coolvetica'; font-style: normal;
     font-size: 90px;
     animation: header 5s;
 }
 
 @keyframes header {
-    0%   {font-family: 'Barcode';}
-    25%  {font-family: 'Mentra'; }
-    50%  {font-family: 'Speedway'; text-transform: uppercase; }
-    75%  {font-family: 'Computer Modern'; text-transform: none; }
-    100% {font-family: 'Coolvetica';}
+    0%   {font-family: 'Helvetica';}
+    25%  {font-family: 'Retro Boldy'; }
+    50%  {font-family: 'Planet Kosmos';}
+    75%  {font-family: 'Cfour';}
+    100% {font-family: 'Black Mustang';}
 }
 
 h3 {
