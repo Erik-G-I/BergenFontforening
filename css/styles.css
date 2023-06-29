@@ -1,115 +1,3 @@
-/* Excalibur Nouveau */
-@font-face {
-    font-family: "Excalibur Nouveau";
-    src: url(../fonts/Excalibur-Nouveau.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Retro Boldy */
-@font-face {
-    font-family: "Retro Boldy";
-    src: url(../fonts/RetroBoldy-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Speedway */
-@font-face {
-    font-family: "Speedway";
-    src: url(../fonts/Speedway.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Verve */
-@font-face {
-    font-family: "Verve";
-    src: url(../fonts/Verve.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Vintage */
-@font-face {
-    font-family: "Vintage";
-    src: url(../fonts/Vintage.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Barcode */
-@font-face {
-    font-family: "Barcode";
-    src: url(../fonts/Another-barcode-font.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Franchise */
-@font-face {
-    font-family: "Franchise";
-    src: url(../fonts/Franchise.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Planet Kosmos */
-@font-face {
-    font-family: "Planet Kosmos";
-    src: url(../fonts/PlanetKosmos.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Space Time */
-@font-face {
-    font-family: "Space Time";
-    src: url(../fonts/spacetime-regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Mentra */
-@font-face {
-    font-family: "Mentra";
-    src: url(../fonts/MENTRA.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Stretch Pro */
-@font-face {
-    font-family: "Stretch Pro";
-    src: url(../fonts/StretchPro.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Saddlebag */
-@font-face {
-    font-family: "Saddlebag";
-    src: url(../fonts/Saddlebag.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Coolvetica */
-@font-face {
-    font-family: "Coolvetica";
-    src: url(../fonts/coolvetica-rg.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Computer Modern */
-@font-face {
-    font-family: "Computer Modern";
-    src: url(../fonts/cmunrm.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
 h1 {
     height: 150px;
     text-align: center;
@@ -147,6 +35,12 @@ h3 {
     font-family: 'Helvetica';
     text-align: right;
     font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #FFE9C7;
+    padding-top: 1%;
+    
 }
 
 .bannerbottom {
@@ -163,6 +57,13 @@ h3 {
 
 .arkivlisten {
     font-size: 40px;
+}
+
+.clock {
+    font-family: 'Alarm clock';
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 html {
