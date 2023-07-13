@@ -173,3 +173,27 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Chappa */
+@font-face {
+    font-family: "Chappa";
+    src: url(../fonts/chappa-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bronova Bold */
+@font-face {
+    font-family: "Bronova Bold";
+    src: url(../fonts/Bronova_Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Retro Cool */
+@font-face {
+    font-family: "Blemo";
+    src: url(../fonts/blemo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
