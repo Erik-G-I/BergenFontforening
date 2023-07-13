@@ -50,6 +50,7 @@ h3 {
 }
 
 .menylinje {
+    padding-top: 10px;
     font-family: 'Helvetica';
     text-align: center;
     font-size: 30px;
@@ -64,6 +65,11 @@ h3 {
     font-size: 30px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.semesteretsfont {
+    text-align: center;
+    font-size: 100px;
 }
 
 html {
