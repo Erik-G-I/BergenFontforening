@@ -1,4 +1,4 @@
-.title {
+.titleAni {
     height: 150px;
     text-align: center;
     font-family: 'Coolvetica'; font-style: normal;
@@ -14,10 +14,18 @@
     100% {font-family: 'Black Mustang';}
 }
 
+.title {
+    height: 150px;
+    text-align: center;
+    font-family: 'Coolvetica'; font-style: normal;
+    font-size: 90px;
+}
+
 h3 {
     font-family: 'Helvetica';
     text-align: center;
     font-size: 100px;
+    color: black;
 }
 
 .topptekst {
@@ -29,6 +37,19 @@ h3 {
 .MaanedensFunn {
     text-align: center;
     font-size: 100px;
+    animation: fadeInUp 3s;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,100px,0);
+        opacity: 0
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
 
 .bannertop {
@@ -82,7 +103,15 @@ html {
 
 a {
     color: #921131;
-    text-decoration: none;
+    text-decoration: underline solid transparent;
+    transition: text-decoration .5s ease;
     cursor: pointer;
 }
 
+a:hover {
+    text-decoration: underline solid Currentcolor;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
