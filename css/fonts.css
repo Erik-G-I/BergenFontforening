@@ -190,10 +190,50 @@
     font-style: normal;
 }
 
-/* Retro Cool */
+/* Blemo */
 @font-face {
     font-family: "Blemo";
     src: url(../fonts/blemo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Akira Expanded */
+@font-face {
+    font-family: "Akira Expanded";
+    src: url(../fonts/Akira\ Expanded\ Demo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bogam */
+@font-face {
+    font-family: "Bogam";
+    src: url(../fonts/Bogam.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Cino */
+@font-face {
+    font-family: "Cino";
+    src: url(../fonts/Cino\ Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Thunder */
+@font-face {
+    font-family: "Thunder";
+    src: url(../fonts/Thunder-BoldHCItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Vivaldi */
+@font-face {
+    font-family: "Vivaldi";
+    src: url(../fonts/VIVALDII.TTF);
     font-weight: normal;
     font-style: normal;
 }
