@@ -237,3 +237,91 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Aber Mono */
+@font-face {
+    font-family: "Aber Mono";
+    src: url(../fonts/Aber-Mono-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bryson */
+@font-face {
+    font-family: "Bryson";
+    src: url(../fonts/Bryson-Personal-Use-Only-BF6451192a64c8f.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Capuche */
+@font-face {
+    font-family: "Capuche";
+    src: url(../fonts/Capuche\ Trial.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Clepto */
+@font-face {
+    font-family: "Clepto";
+    src: url(../fonts/Clepto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Cotta */
+@font-face {
+    font-family: "Cotta";
+    src: url(../fonts/cotta-free.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Pop Magic */
+@font-face {
+    font-family: "Pop Magic";
+    src: url(../fonts/GAU_pop_magic.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Git Sans */
+@font-face {
+    font-family: "Git Sans";
+    src: url(../fonts/Git-Sans.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Macro */
+@font-face {
+    font-family: "Macro";
+    src: url(../fonts/MACRO_FREE.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Saonara */
+@font-face {
+    font-family: "Saonara";
+    src: url(../fonts/MADE\ SAONARA\ PERSONAL\ USE.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Sherman */
+@font-face {
+    font-family: "Sherman";
+    src: url(../fonts/Sherman-Display.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Space Mono */
+@font-face {
+    font-family: "Space Mono";
+    src: url(../fonts/SpaceMono-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
