@@ -27,7 +27,7 @@ h3 {
     font-family: 'Helvetica';
     text-align: center;
     font-size: 60px;
-    color: black;
+    color: #071E22;
 }
 
 .topptekst {
@@ -61,7 +61,7 @@ h3 {
     position: sticky;
     top: 0;
     z-index: 999;
-    background-color: #FFE9C7;
+    background: inherit;
     padding-top: 1%;
     display: grid;
     gap: 20px;
@@ -70,6 +70,104 @@ h3 {
     justify-content: space-around;
     grid-template-columns: 25% 50% 25%;
 }
+
+
+#toggle {
+    display: none;
+  }
+/**
+  Hamburger
+**/
+.hamburger {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+  }
+  
+  .hamburger div {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #071E22;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /**
+  Nav Styles
+  **/
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #071E22;
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+  nav {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color: #FED18C;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+  }
+  nav a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: #FE654F;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  nav a:hover {
+    color: #FE654F;
+  }
+  nav a:hover:before {
+    height: 100%;
+  }
+  
+  /**
+  Animations
+  **/
+  #toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 20px;
+    background-color: #FED18C;
+  }
+  #toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  #toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -4.5px;
+    background-color: #FED18C;
+  }
+  
+  #toggle:checked + .hamburger + .nav {
+    top: 0;
+    transform: scale(1);
+  }
+    
 
 .bannerbottom {
     font-family: 'Helvetica';
@@ -97,6 +195,7 @@ h3 {
     font-size: 30px;
     display: inline-block;
     vertical-align: middle;
+    color: #071E22;
 }
 
 .semesteretsfont {
@@ -105,23 +204,30 @@ h3 {
 }
 
 html {
-    background-color: #FFE9C7;
+    /* background: rgb(255,241,194);
+    background: radial-gradient(circle, rgba(255,241,194,1) 65%, rgba(252,193,70,1) 100%);  */
+    background-color: #FED18C;
+    /* background-color: #FFE9C7; */
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 5%;
     
 }
 
+p {
+    color: #071E22;
+}
+
 a {
-    color: #921131;
+    color: #FE654F;
     text-decoration: underline solid transparent;
     transition: text-decoration .5s ease;
     cursor: pointer;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline solid Currentcolor;
-}
+} */
 
 [contenteditable]:focus {
     outline: 0px solid transparent;
