@@ -365,3 +365,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Checkbook */
+@font-face{
+    font-family: "Checkbook";
+    src: url(../fonts/CHECKBK0.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
